@@ -1,3 +1,4 @@
+<<<<<< HEAD
 terraform {
   required_providers {
     azurerm = {
@@ -6,4 +7,8 @@
     }
   }
 }
-
+
+provider "azurerm" {
+  # Configuration options
+}
+
